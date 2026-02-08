@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Loading</title>
+    <style>
+        .div1 {
+            width: 90px;
+            height: 80px;
+            background-color: gray;
+            border-radius: 30px;
+            margin: 20px;
+            display: inline-block;
+            position: relative;
+            top: 300px;
+            left: 500px;
+            animation-name: div1;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+
+        .div2 {
+            width: 90px;
+            height: 80px;
+            background-color: gray;
+            border-radius: 30px;
+            margin: 20px;
+            display: inline-block;
+            position: relative;
+            top: 300px;
+            left: 500px;
+            animation-name: div2;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+
+        .div3 {
+            width: 90px;
+            height: 80px;
+            background-color: gray;
+            border-radius: 30px;
+            margin: 20px;
+            display: inline-block;
+            position: relative;
+            top: 300px;
+            left: 500px;
+            animation-name: div3;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes div1 {
+            0% {
+                top: 300px;
+            }
+            16%{
+                top: 230px;
+                background-color: blue;
+            }
+            33%{
+                top: 300px;
+                background-color: gray;
+            }
+
+        }
+
+        @keyframes div2 {
+            27% {
+                top: 300px;
+                background-color: gray;
+            }
+            46%{
+                top: 230px;
+                background-color: blue;
+            }
+            66%{
+                top: 300px;
+                background-color: gray;
+            }
+
+        }
+
+        @keyframes div3 {
+            53% {
+                top: 300px;
+                background-color: gray;
+            }
+            76%{
+                top: 230px;
+                background-color: blue;
+            }
+            99%{
+                top: 300px;
+                background-color: gray;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1"></div>
+    <div class="div2"></div>
+    <div class="div3"></div>
+
+</body>
+
+</html>

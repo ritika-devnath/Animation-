@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Animation</title>
+    <style>
+        body{
+            background-color: rgb(231, 51, 231);
+        }
+        .div1{
+            height:300px;
+            width:100px;
+            background:linear-gradient(180deg, red, whitesmoke);
+            border-radius: 10px;
+            position: absolute;
+            top:300px;
+            left:820px;
+            display: inline-block;
+            transform-origin: bottom center;
+            animation: move 4s ;
+            animation-iteration-count: infinite;
+
+            
+        }
+        .div2{
+            height:300px;
+            width:100px;
+            background:linear-gradient(180deg, purple, white);
+            border-radius: 10px;
+            position: absolute;
+            top:300px;
+            left:820px;
+            display: inline-block;
+            transform-origin: bottom center;
+            animation: move1 4s ;
+            animation-iteration-count: infinite;
+        }
+        .div3{
+            height:300px;
+            width:100px;
+            background:linear-gradient(180deg, yellow, whitesmoke);
+            border-radius: 10px;
+            position:absolute;
+            top:300px;
+            left:820px;
+            display: inline-block;
+            transform-origin: bottom center;
+            animation-name: move2;
+            animation-duration: 4s ;
+            animation-iteration-count: infinite;
+        }
+        .div4{
+            height:300px;
+            width:100px;
+            background:linear-gradient(180deg, orange
+            , rgb(216, 216, 79));
+            border-radius: 10px;
+            position: absolute;
+            top:300px;
+            left:820px;
+            display: inline-block;
+            transform-origin: bottom center;
+            animation-name: move3;
+            animation-duration: 4s;
+            animation-iteration-count:infinite;
+            
+        }
+        .div5{
+            height:300px;
+            width:100px;
+            background:linear-gradient(180deg,rgb(84, 84, 224)
+            , rgb(210, 210, 71));
+            border-radius: 10px;
+            position:absolute;
+            top:300px;
+            left:820px;
+            display: inline-block;
+            transform-origin: bottom center;
+           animation-name:move4;
+           animation-duration: 4s;
+           animation-iteration-count: infinite;        
+            
+        }
+        .div6{
+            height:300px;
+            width:100px;
+            background:linear-gradient(180deg, green
+            , rgb(202, 202, 98));
+            border-radius: 10px;
+            position:absolute;
+            top:300px;
+            left:820px;
+            display: inline-block;
+            transform-origin: bottom center;
+            animation-name:move5;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes move{
+           0%{transform:rotate(0deg)}
+           33%{Transform:rotate(80deg)}
+           50%{ transform:rotate(0deg)}
+        }
+        @keyframes move1{
+           0%{transform:rotate(0deg)}
+           33%{Transform:rotate(50deg)}
+           50%{ transform:rotate(0deg)}
+        }
+        @keyframes move2{
+           0%{transform:rotate(0deg)}
+           33%{Transform:rotate(20deg)}
+           50%{ transform:rotate(0deg)}
+        }
+        @keyframes move3{
+           0%{transform:rotate(0deg)}
+           33%{Transform:rotate(-20deg)}
+           50%{ transform:rotate(0deg)}
+        }
+        @keyframes move4{
+           0%{transform:rotate(0deg)}
+           33%{Transform:rotate(-50deg)}
+           50%{ transform:rotate(0deg)}
+        }
+        @keyframes move5{
+           0%{transform:rotate(0deg)}
+           33%{Transform:rotate(-80deg)}
+           50%{ transform:rotate(0deg)}
+        }
+        .circle{
+            width: 50px;
+            height: 50px;
+            background-color:whitesmoke;
+            border-radius: 50px;
+            position: absolute;
+            top:550px;
+            left:850px; 
+            animation: circle 3s infinite; 
+        }
+        @keyframes circle {
+            0%{left:850px;}
+           33%{left:870px;}
+           50%{ left:850px;}         
+            
+        }
+        .centre{height:300px;
+            width:100px;
+            background:linear-gradient(180deg, pink
+            , rgb(202, 202, 98));
+            border-radius: 10px;
+            position:absolute;
+            top:300px;
+            left:820px;
+            display: inline-block;
+            transform-origin: bottom center;
+
+        }
+    
+        
+        
+    </style>
+</head>
+<body>
+    <Div class="div6"></Div>
+    <Div class="div5"></Div>
+    <Div class="div4"></Div>
+    <div class="centre"></div>
+    <Div class="div3"></Div>
+    <Div class="div2"></Div>
+    <div class="div1"></div>
+    <div class="circle"></div>
+</body>
+</html>
